@@ -77,7 +77,7 @@ export function CodeCell(props: ICodeCellProps) {
       scrollbar: { alwaysConsumeMouseWheel: false },
     });
 
-    _setCellHeight(editorRef.current.getContentHeight());
+    _setCellHeight(Math.max(editorRef.current.getContentHeight(), 200));
 
     const sizeChangedListener = editorRef.current.onDidContentSizeChange((e) => {
       if (e.contentHeightChanged) {
