@@ -23,6 +23,7 @@
 import MarkdownIt from "markdown-it";
 import MarkdownItTaskLists from "markdown-it-task-lists";
 import multimd_table_plugin from "markdown-it-multimd-table";
+import MarkdownItToc from "markdown-it-table-of-contents";
 import { IMarkdownRenderService } from "@masbook/services/markdown/markdown";
 
 export class MarkdownItRenderService implements IMarkdownRenderService {
@@ -34,7 +35,8 @@ export class MarkdownItRenderService implements IMarkdownRenderService {
         multiline: true,
         rowspan: true,
       })
-      .use(MarkdownItTaskLists);
+      .use(MarkdownItTaskLists)
+      .use(MarkdownItToc);
   }
 
   render = (markdown: string): string => {

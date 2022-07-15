@@ -8,6 +8,8 @@ import { Cells } from "masbook";
 
 const someMarkdownCode = `# Demo Markdown
 
+[[TOC]]
+
 ## Demo Markdown Header2
 
 ### Demo code script
@@ -25,10 +27,11 @@ vec <- c(1, 2, 3)
 1. Ordered 1
 2. Ordered 2
 
-
+| Grouped ||
 | A | B |
 | - | - |
 | 1 | 2 |
+
 | 3 45 ||
 
 `;
@@ -63,6 +66,7 @@ const someMarkdownCode = `# Demo Markdown
 | A | B |
 | - | - |
 | 1 | 2 |
+
 | 3 45 ||
 
 `;
