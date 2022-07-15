@@ -24,6 +24,8 @@ import React from "react";
 import { Spin } from "antd";
 import { MarkdownItRenderService } from "@masbook/services/markdown/markdownItService";
 
+import "@masbook/view/cells/markdown/multimarkdown.css";
+
 export interface IRenderedMarkdownCellProps {
   value: string;
   onDoubleClick?: () => void | PromiseLike<void>;
@@ -60,6 +62,7 @@ export function RenderedMarkdownCell(props: IRenderedMarkdownCellProps) {
         onMouseLeave={() => setHover(false)}
       >
         <span
+          className="masbook-multimarkdown"
           dangerouslySetInnerHTML={{ __html: renderedHTML ?? "" }}
           onDoubleClick={onDoubleClick}
         />

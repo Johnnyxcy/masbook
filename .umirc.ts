@@ -13,8 +13,8 @@ export default defineConfig({
   chainWebpack(config) {
     config.plugin("monaco-editor").use(require("monaco-editor-webpack-plugin"));
   },
-  ghPages: {
-    useCDN: true,
-  },
+  // ghPages: {
+  //   useCDN: true,
+  // },
   // more config: https://d.umijs.org/config
 });

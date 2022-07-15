@@ -1,0 +1,134 @@
+/*
+https://github.com/btoone/mms
+*/
+
+.masbook-multimarkdown body {
+  width: 40em;
+  margin: 0;
+  margin: auto;
+  padding: 0;
+  font: 14px/1.5em Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman";
+  font-size: 1em;
+}
+
+.masbook-multimarkdown h1,
+.masbook-multimarkdown h2,
+.masbook-multimarkdown h3,
+.masbook-multimarkdown h4,
+.masbook-multimarkdown h5,
+.masbook-multimarkdown h6 {
+  font-weight: normal;
+  font-family: "Lobster", arial, serif;
+  text-align: left;
+}
+
+.masbook-multimarkdown a {
+  padding: 0 2px 0 2px;
+  color: #fff;
+  text-decoration: none;
+  background: #4d97ff;
+}
+
+.masbook-multimarkdown a.markdowncitation {
+  color: blue;
+  text-decoration: underline;
+  background: none;
+}
+
+.masbook-multimarkdown .footnotes,
+.masbook-multimarkdown .bibliography {
+  background: #ddd;
+}
+
+.masbook-multimarkdown a.footnote {
+  color: blue;
+  text-decoration: underline;
+  background: none;
+}
+
+.masbook-multimarkdown img {
+  margin-right: 2em;
+  margin-left: 1em;
+  padding: 0.5em;
+}
+
+.masbook-multimarkdown blockquote {
+  margin: 0;
+  padding: 10px;
+  font-style: italic;
+  background-color: #ddd;
+}
+
+.masbook-multimarkdown blockquote p {
+  margin: 0;
+  padding: 0;
+}
+
+.masbook-multimarkdown code {
+  font-family: courier;
+  line-height: 1.75em;
+  background-color: #e2e8f2;
+}
+
+.masbook-multimarkdown pre {
+  margin: 0 0 1.75em 0;
+  padding: 0.5em;
+  font-size: 0.857em;
+  font-family: courier;
+  line-height: 1.75em;
+  white-space: pre-wrap;
+  white-space: moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  background-color: #e2e8f2;
+  border-left: 4px solid #cad0da;
+}
+
+.masbook-multimarkdown table {
+  margin: 20px auto;
+  padding: 2px;
+  empty-cells: hide;
+  border: solid black;
+  border-width: 2px 0px;
+  border-spacing: 0px;
+}
+
+.masbook-multimarkdown table caption {
+  margin: 5px;
+  text-align: center;
+}
+
+.masbook-multimarkdown thead th {
+  padding: 5px;
+  border: solid gray;
+  border-width: 0 0 2px 0;
+}
+
+.masbook-multimarkdown .h {
+  background: #d3e5ff;
+}
+
+.masbook-multimarkdown thead > tr:last-child > th {
+  border-style: none;
+}
+
+.masbook-multimarkdown tbody > tr:first-child > td {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+
+.masbook-multimarkdown tbody > tr:first-child > th {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+
+.masbook-multimarkdown thead + tbody > tr:first-child > td {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}
+
+.masbook-multimarkdown thead + tbody > tr:first-child > th {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}

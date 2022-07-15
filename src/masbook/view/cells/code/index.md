@@ -74,6 +74,11 @@ vec <- c(1, 2, 3)
 
 1. Ordered 1
 2. Ordered 2
+
+| A | B |
+| - | - |
+| 1 | 2 |
+| 3 45 ||
 `;
 
 export default () => (
